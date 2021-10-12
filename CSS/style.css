@@ -24,14 +24,23 @@
   height: 100%;
 }
 
-.container-challenges,
-.container-directory {
-  border: solid 1px red;
+.container-content {
+  border: solid 1px #333333;
+  border-radius: 10px;
+  box-shadow: 5px 10px #888888;
   padding: 20px;
 }
-.list {
+
+.container-content .list {
   list-style: none;
 }
+
+.container-content:hover {
+  box-shadow: 4px 8px #999999;
+  cursor: pointer;
+  background-color: #c9c6c5;
+}
+
 .link > a:link {
   color: red;
   text-decoration: none;
