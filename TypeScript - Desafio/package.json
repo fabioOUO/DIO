@@ -1,0 +1,18 @@
+{
+  "name": "typescript---desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "tsc-init": "tsc --init",
+    "tsc-watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "Fábio Júnior Barbosa",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "typescript": "^4.7.4"
+  }
+}
